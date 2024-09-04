@@ -14,7 +14,7 @@ const Menu = () => {
     <>
       <div className="w-2/12 h-screen mt-2 bg-white">
       <ul className="menu w-full p-0 text-xl text-gray-600">
-        <li className="hover:bg-violet-300 hover:text-violet-1000 rounded-xl action:bg-violet-300">
+        <li className="bg-violet-300 hover:text-violet-1000 rounded-xl action:bg-violet-300">
           <a><RiFundsLine size={"2rem"}/>Dashboard</a>
         </li>
         <li>

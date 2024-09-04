@@ -18,10 +18,10 @@ const data = [
 
 const lineGraph = () => {
   return (
-    <div className='border-2 w-fit bg-white mt-5 rounded-xl m-3 '>
+    <div className='border-2 w-auto bg-white mt-5 rounded-xl m-3'>
       <div className='border-2 h-14 text-2xl flex justify-items-start pt-2'>Sales vs Orders<CiCircleAlert /></div>
-      <div className='p-3'>
-      <LineChart width={900} height={500} data={data}>
+      <div className='p-3 h-max'>
+      <LineChart width={900} height={600} data={data}>
       <Line type="monotone" dataKey="Orders" stroke="#FB923C" strokeWidth={3} />
       <Line type="monotone" dataKey="Sales" stroke="#0891B2" strokeWidth={3}/>
       <CartesianGrid strokeDasharray="3 3" />
