@@ -1,0 +1,12 @@
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #0891B2;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot1{
+    background-color: #FB923C;
+    padding: 5px;
+    margin-left: 5px;
+  }
